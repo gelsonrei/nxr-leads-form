@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 17677874c0a584e4580bc3033a0dfd48
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - BancoDoBrasil Textos
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 40f829dbf414dc844a79abf3480d53b4, type: 3}
+  - {fileID: 12800000, guid: 237557dd28c9010409f92b30941326a9, type: 3}
+  - {fileID: 12800000, guid: 30384a25034a5824a9b4fa81b4e3fb2c, type: 3}
+  - {fileID: 12800000, guid: b09b3c7b79940464c8546da3ce427ca8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
