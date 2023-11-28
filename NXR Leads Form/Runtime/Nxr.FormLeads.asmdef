@@ -1,0 +1,16 @@
+{
+    "name": "Nxr.FormLeads",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a047bc0b8de27024888d930c1a89badc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
