@@ -10,7 +10,7 @@ namespace Nxr.FormLeads
 
         private static string dbUri;
         public SQLiteConnection dbConnection;
-        static public DatabaseHandler instance;
+        static private DatabaseHandler instance;
         public static bool isDatabaseLoaded = false;
 
         private DatabaseHandler(string databasePath)
@@ -33,6 +33,7 @@ namespace Nxr.FormLeads
         public void Close()
         {
             dbConnection.Close();
+            instance = null;
         }
 
     }
