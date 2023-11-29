@@ -34,6 +34,7 @@ namespace Nxr.FormLeads
 
         protected static List<T> QueryList<T>(string sql, bool list = false) where T : new()
         {
+
             var resultList = dbCon.Query<T>(sql);
 
             if (list)
@@ -75,10 +76,8 @@ namespace Nxr.FormLeads
 
         private void OnDestroy()
         {
-            if (dbCon != null)
-            {
-                databaseHandler.Close();
-            }
+            if (dbCon != null) 
+                dbCon.Close();
         }
 
 
