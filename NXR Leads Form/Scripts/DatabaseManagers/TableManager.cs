@@ -76,8 +76,8 @@ namespace Nxr.FormLeads
 
         private void OnDestroy()
         {
-            if (dbCon != null) 
-                dbCon.Close();
+            if (dbCon != null)
+                databaseHandler.Close();
         }
 
 

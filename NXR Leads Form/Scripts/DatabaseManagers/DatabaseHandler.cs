@@ -33,6 +33,7 @@ namespace Nxr.FormLeads
         public void Close()
         {
             dbConnection.Close();
+            instance = null;
         }
 
     }
